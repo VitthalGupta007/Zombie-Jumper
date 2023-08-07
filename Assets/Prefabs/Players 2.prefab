@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6597864524205744119}
   - component: {fileID: 3684345866517750030}
-  - component: {fileID: 5956006627795829052}
   - component: {fileID: 8779175071738485587}
   - component: {fileID: 7371472954735000686}
   - component: {fileID: 5666389264369907728}
+  - component: {fileID: 2637508840110153187}
   m_Layer: 0
   m_Name: Players 2
   m_TagString: Player
@@ -88,27 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5956006627795829052
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2724655141276875722}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fdd1797fda60d1c4c8a60a7a85eceb09, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &8779175071738485587
 Rigidbody2D:
   serializedVersion: 4
@@ -161,3 +140,24 @@ MonoBehaviour:
   moveforce: 10
   jumpforce: 11
   mybody: {fileID: 8779175071738485587}
+--- !u!95 &2637508840110153187
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724655141276875722}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4dea3711270f40a4b87f1cc30c1e6298, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
